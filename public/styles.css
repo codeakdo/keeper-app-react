@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 300;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+.note {
+  
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+  border:1px solid #f5ba13;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+input, textarea{
+  font-family: "Nanum Pen Script", cursive;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: large  ;
+  
+}
+input{
+  font-weight: 800;
+}
+button{
+  
+  border-radius:3px ;
+  width: 20%;
+  float: right
+  ;
+  background-color: #fff;
+  color: #f5ba13;
+  border:1px solid #f5ba13;
+
+  
+}
+button:hover{
+  border: 1px,solid,#625353ba;
+
+  background-color: #f5ba13;
+  color: #625353ba;
+
+}
+.add{
+  align-items: center;
+  
+}
